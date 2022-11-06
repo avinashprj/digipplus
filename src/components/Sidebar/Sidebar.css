@@ -1,0 +1,49 @@
+/* note:sideBar */
+.sidebar-modal,
+.sidebar {
+  position: fixed;
+  transition: opacity 0.2s linear;
+  left: 0;
+  top: 6.5rem;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
+}
+.sidebar-modal.open {
+  opacity: 1;
+  visibility: visible;
+}
+.sidebar {
+  width: 32rem;
+  opacity: 1;
+  visibility: visible;
+  padding: 2rem 1rem 1rem;
+  background-color: var(--clr-grey-4);
+  color: white;
+  transition: all 0.2s;
+  transform: translate(-100%);
+}
+.sidebar.open {
+  transform: translate(0);
+}
+.sidebar-links {
+  list-style-type: none;
+}
+.sidebar-links li {
+  font-size: 1.8rem;
+  padding: 1rem;
+  border-bottom: 1px solid white;
+}
+
+.sidebar-links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: currentColor;
+  transition: 0.2s all;
+}
+.sidebar-links a:hover {
+  color: var(--clr-primary-1);
+}
