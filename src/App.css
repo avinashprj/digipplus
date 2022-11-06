@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+/*
+===============
+Note: Variables
+===============
+*/
+
+:root {
+  --clr-primary-1: #e7a61a;
+  --clr-primary-2: #dc613f;
+  --clr-secondary-1: #6c8193;
+  --clr-light-1: #c9edf1;
+  -clr-light-2: #136e7c;
+  --clr-grey-1: #fffaf9s;
+  --clr-grey-2: #999493;
+  --clr-grey-3: #edf8ff;
+  --clr-grey-4: #6c8193;
+  --clr-white: #fff;
+}
+
+/*
+===============
+Note: Global Styles
+===============
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  outline: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 37.5em) {
+  html {
+    font-size: 56.5%;
+  }
+}
+
+img {
+  object-fit: cover;
+}
+button {
+  background: none;
+  cursor: pointer;
+  border: none;
+}
+
+h1 {
+  font-size: 6.4rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+h5 {
+  font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--clr-grey-1);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 50em) {
+  h1,
+  h2,
+  h3,
+  h4 {
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+    line-height: 1.25;
+    /* margin-bottom: 1.2rem; */
+  }
+  h1 {
+    font-size: 4.4rem;
+  }
+  h2 {
+    font-size: 3.2rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1.4rem;
+  }
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  font-size: 1.8rem;
+}
