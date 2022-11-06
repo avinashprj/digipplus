@@ -1,0 +1,62 @@
+.payments-container {
+  padding: 3rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.payments-nav {
+  margin: 1rem 0;
+}
+
+.payments-details-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+}
+.payments-nav .payments-nav-primary {
+  font-size: 1.44rem;
+  text-transform: uppercase;
+  color: var(--clr-primary-2);
+  font-weight: 600;
+}
+.payment-card {
+  border: 1px solid black;
+  border-radius: 0.8rem;
+  max-width: 60rem;
+  width: 90%;
+  padding: 1.6rem;
+}
+.payment-card .payment-card-details {
+  padding: 0.64rem;
+}
+.payments-nav .payments-nav-sec {
+  margin-top: 1.28rem;
+  padding: 1.6rem;
+  border-radius: 0.48rem;
+  background-color: var(--clr-secondary-1);
+  color: var(--clr-white);
+  width: 20rem;
+}
+.payments-nav .payments-nav-tert {
+  padding: 1.6rem;
+  border-radius: 0.48rem;
+  background-color: var(--clr-grey-3);
+  color: black;
+  width: 20rem;
+  font-size: 1.28rem;
+  margin-top: 1.6rem;
+}
+.payments-earning {
+  padding: 1rem 0;
+  align-self: start;
+}
+.payments-earning .payments-earning-heading {
+  font-size: 1.6rem;
+  font-weight: 400;
+  padding: 0.5rem 0;
+}
+.payments-earning .payments-earning-details {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
