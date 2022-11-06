@@ -1,0 +1,71 @@
+.hero {
+  padding: 0.8rem 10%;
+}
+.hero .hero-heading {
+  text-align: center;
+  font-weight: 800;
+  font-size: 2.8rem;
+}
+.hero .hero-sec {
+  text-align: right;
+  font-weight: 700;
+  margin-top: 1.6rem;
+  font-size: 2.08rem;
+  margin-bottom: 1.6rem;
+}
+.hero_info {
+  background-color: #c9edf1;
+  padding: 1.52rem;
+  border-radius: 0.48rem;
+  color: #136e7c;
+}
+.hero .hero-sec-heading {
+  color: #f37458;
+  margin-top: 1.6rem;
+  font-weight: 800;
+  font-size: 1.76rem;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+.hero .box {
+  margin-top: 1.6rem;
+  padding: 1.04rem;
+  width: 15rem;
+  font-weight: 600;
+  box-shadow: 0px 3px 10px #e7a61a;
+}
+
+.hero .hero-image {
+  width: 8rem;
+  height: 8rem;
+}
+
+.hero-card {
+  padding: 1.6rem;
+  width: 24.5rem;
+  height: 14rem;
+  border-radius: 0.2rem;
+  /* box-shadow: 0px 5px 28px -5px #e7a61a; */
+  box-shadow: 0px 3px 10px #e7a61a;
+}
+.hero-card .hero-card-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+  color: #dc613f;
+}
+
+.hero-card-text {
+  border: none;
+  overflow: auto;
+  outline: none;
+  box-shadow: none;
+  resize: none;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.05rem;
+}
+@media screen and (max-width: 25em) {
+  .hero .hero-heading {
+    font-size: 2.5rem;
+  }
+}
